@@ -15,7 +15,7 @@ PODS:
   - RxCocoa (6.2.0):
     - RxRelay (= 6.2.0)
     - RxSwift (= 6.2.0)
-  - RxDropDown (0.1.0):
+  - RxDropDown (0.1.2):
     - RxCocoa (~> 6.2.0)
     - RxSwift (~> 6.2.0)
   - RxRelay (6.2.0):
@@ -49,7 +49,7 @@ SPEC CHECKSUMS:
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
   RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
-  RxDropDown: 9b69954e02d4abc17f0cbd177a9c44bf121dc33a
+  RxDropDown: 67167280bf0bd878430febd9d2cf5821ba61b081
   RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
 
