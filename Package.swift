@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "RxSwift-RxDropDown",
-            dependencies: ["RxSwift", "RxCocoa"]),
+            dependencies: ["RxSwift"]),
         .testTarget(
             name: "RxSwift-RxDropDownTests",
             dependencies: ["RxSwift-RxDropDown"]),
