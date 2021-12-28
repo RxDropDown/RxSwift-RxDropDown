@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxDropDown'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Amazing RxDropDown'
 
   s.description      = 'You can make dropdown with RxSwift'
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
-  s.source_files = 'RxDropDown/Classes/**/*'
+  s.source_files = 'Sources/RxSwift-RxDropDown/Classes/**/*'
   
   s.dependency 'RxSwift', '~> 6.2.0'
   s.dependency 'RxCocoa', '~> 6.2.0'
