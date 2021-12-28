@@ -5,18 +5,22 @@ import PackageDescription
 
 let package = Package(
     name: "RxSwift-RxDropDown",
+    platforms: [
+        .iOS(.v9), .tvOS(.v9)
+    ],
     products: [
         .library(
             name: "RxSwift-RxDropDown",
             targets: ["RxSwift-RxDropDown"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.2.0")
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0"))
     ],
     targets: [
         .target(
             name: "RxSwift-RxDropDown",
-            dependencies: ["RxSwift"]),
+            dependencies: ["RxSwift",
+                           .product(name: "RxCocoa", package: "RxSwift")]),
         .testTarget(
             name: "RxSwift-RxDropDownTests",
             dependencies: ["RxSwift-RxDropDown"]),
