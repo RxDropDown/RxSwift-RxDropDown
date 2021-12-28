@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'You can make dropdown with RxSwift'
 
-  s.homepage         = 'https://github.com/ahnjh1028@naver.com/RxDropDown'
+  s.homepage         = 'https://github.com/RxDropDown/RxSwift-RxDropDown'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JiHoonAHN' => 'ahnjh1028@naver.com' }
   s.source           = { :git => 'https://github.com/ahnjh1028@naver.com/RxDropDown.git', :tag => s.version.to_s }
