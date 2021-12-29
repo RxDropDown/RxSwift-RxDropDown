@@ -24,4 +24,4 @@ jobs:
         set -eo pipefail
         pod lib lint --allow-warnings
     - name: Deploy SPM
-      run : swift package generate-xcodepoj
+      run : swift package generate-xcodeproj
