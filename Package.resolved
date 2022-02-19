@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "DropDown",
+        "repositoryURL": "https://github.com/AssistoLab/DropDown.git",
+        "state": {
+          "branch": "master",
+          "revision": "2ab6f6ce19f0117d1a76ea043ef8f57722c65d16",
+          "version": null
+        }
+      },
+      {
         "package": "RxSwift",
         "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
         "state": {

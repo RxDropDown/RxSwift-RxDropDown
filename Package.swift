@@ -14,13 +14,17 @@ let package = Package(
             targets: ["RxSwift-RxDropDown"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0"))
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.2.0")),
+        .package(url: "https://github.com/AssistoLab/DropDown.git", .branch("master"))
     ],
     targets: [
         .target(
             name: "RxSwift-RxDropDown",
-            dependencies: ["RxSwift",
-                           .product(name: "RxCocoa", package: "RxSwift")]),
+            dependencies: [
+                "RxSwift",
+                .product(name: "RxCocoa", package: "RxSwift"),
+                "DropDown"
+            ]),
         .testTarget(
             name: "RxSwift-RxDropDownTests",
             dependencies: ["RxSwift-RxDropDown"]),
