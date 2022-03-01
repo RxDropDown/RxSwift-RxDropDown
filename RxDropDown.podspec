@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/RxSwift-RxDropDown/Classes/**/*'
   
   s.dependency 'RxSwift', '~> 6.2.0'
-  s.depemdency 'DropDown', '~> 2.3.13'
+  s.dependency 'DropDown', '~> 2.3.13'
 end
